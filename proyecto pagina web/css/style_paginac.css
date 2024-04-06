@@ -1,0 +1,43 @@
+.calificacion .fa-star {
+    color: gray;
+}
+
+.calificacion .naranja {
+    color: rgba(8, 253, 0, 0.863);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+    position: absolute; 
+    top: 550px; 
+    right: 30px; 
+}
+
+.celulares {
+    border: 1px solid #ccc;
+    padding: 0px;
+    width: 286px; 
+    height: 380px;
+}
+
+.celulares img {
+    max-width: 100%;
+    height: auto;
+}
+
+.celulares h3{
+    margin-left: 20px;
+}
+
+.celulares p{
+    margin-left: 20px;
+}
+
+.celulares .calificacion {
+    margin-left: 20px; 
+}
+
+
